@@ -1,3 +1,28 @@
+Products Table
+The Products table contains details about products, including their names, categories, and unit
+prices. It provides reference data for linking product information to sales transactions.
+Query:
+-- Create Products table
+CREATE TABLE Products (
+product_id INT PRIMARY KEY,
+product_name VARCHAR(100),
+category VARCHAR(50),
+unit_price DECIMAL(10, 2)
+);
+-- Insert sample data into Products table
+INSERT INTO Products (product_id, product_name, category, unit_price) VALUES
+(101, &#39;Laptop&#39;, &#39;Electronics&#39;, 500.00),
+(102, &#39;Smartphone&#39;, &#39;Electronics&#39;, 300.00),
+(103, &#39;Headphones&#39;, &#39;Electronics&#39;, 30.00),
+(104, &#39;Keyboard&#39;, &#39;Electronics&#39;, 20.00),
+(105, &#39;Mouse&#39;, &#39;Electronics&#39;, 15.00);
+
+
+
+
+
+
+
 use tes;
 -- Create Products table
 CREATE TABLE Products (
