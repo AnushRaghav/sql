@@ -17,11 +17,7 @@ INSERT INTO Products (product_id, product_name, category, unit_price) VALUES
 (104, &#39;Keyboard&#39;, &#39;Electronics&#39;, 20.00),
 (105, &#39;Mouse&#39;, &#39;Electronics&#39;, 15.00);
 
-
-
-
-
-
+--Answer
 
 use tes;
 -- Create Products table
